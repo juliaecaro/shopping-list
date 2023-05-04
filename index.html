@@ -1,0 +1,47 @@
+<!-- Julia Caro -->
+<!-- April 28, 2023 -->
+
+<!-- YOU MUST CHANGE YOUR STYLE.CSS AS WELL! 
+
+DO NOT FORGET TO DOWNLOAD YOUR ENTIRE PROJECT! YOU'LL NEED IT FOR A LATER ASSIGNMENT!
+
+Click the three vertical dots next to the New File and New Folder icons by Files and select Download As Zip
+-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY SHOPPING LIST</title>
+		<!-- Adding a favicon -->
+		<link rel="icon" type="image/x-icon" href="/icons/Pencil Icons/pencil-icon.png">
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<!-- Adding custom font families -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=Kalam:wght@300&display=swap" rel="stylesheet">
+  </head>
+	  <body>
+		  <section class="titleSection">
+				<!-- Moved the h1 element into the titleSection -->
+		    <h1>My shopping list</h1>
+		  </section>
+		    <section class="inputSection">
+		      <form>
+						<!-- Moving the input box and the submit button into the inputBoxDiv -->
+		        <div class="inputBoxDiv">
+		          <input id="body" type="text" placeholder="Enter a new item" required>
+							<!-- Removed the 'Add item' text on the add to list button -->
+							<button type="submit" class="addButton"></button>
+		        </div>
+		      </form>
+						<!-- Moving the list element itself into a new div called listDiv -->
+						<div class="listDiv">
+							<ul>
+							</ul>
+						</div>
+		      </section>
+		  <script src="script.js" defer></script>
+	  </body>
+</html>
