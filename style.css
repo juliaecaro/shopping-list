@@ -1,0 +1,145 @@
+/* Julia Caro */
+/* April 28, 2023 */
+
+/* ORIGINAL STYLE */
+/* Original Style Rules have been placed below and adjusted accordingly */
+/* resetting the CSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* ADD YOUR OWN STYLE RULES BELOW! YOU MAY ALSO CHANGE THE ABOVE TOO */
+/* the entire page and background color */
+body {
+	width: 100%;
+	background-color: #FAF9F6;
+}
+
+/* the title */
+h1 {
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: auto;
+	color: #ffffff;
+	line-height: 62px;
+  height: 62px;
+}
+
+/* the brown rectangle area */
+.titleSection {
+	text-align: center;
+	width: 420px;
+	height: 62px;
+	line-height: 62px;
+	background-color: #2a2726;
+	border-radius: 23px 23px 0 0;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0px;
+	box-shadow: 3px 3px 3px #afaeac;
+}
+
+/* the input box area */
+.inputBoxDiv {
+	max-width: 420px;
+	width: 307px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 39px;
+	text-align: center;
+	background: repeating-linear-gradient(90deg, transparent 113px, #b35c42 1px, transparent 114px, transparent), repeating-linear-gradient(#ffffff, #ffffff 40px, #91d6e3 40px, #91d6e3 41px);
+	box-shadow: 3px 3px 3px #afaeac;
+	padding-top: 41px;
+	padding-left: 113px;
+}
+
+/* the input box itself */
+input {
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+/* the submit pencil */
+.addButton {
+	background-image: url("icons/Pencil Icons/pencil-icon.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 19px;
+	width: 19px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	cursor: pointer;
+	margin-left: 1px;
+}
+
+/* the submit pencil when hovered over */
+.addButton:hover {
+	background-image: url("icons/Pencil Icons/pencil-icon-hover.png");
+}
+
+/* the entire list area */
+ul {
+	border-radius: 0 0 23px 23px;
+	text-align: left;
+  list-style-position: inside;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 70px;
+	min-height: 410px;
+	max-width: 420px;
+	padding-top: 0px;
+	padding-bottom: 61px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background: repeating-linear-gradient(90deg, transparent 113px, #b35c42 1px, transparent 114px, transparent), repeating-linear-gradient(#ffffff, #ffffff 40px, #91d6e3 40px, #91d6e3 41px);
+	box-shadow: 3px 3px 3px #afaeac;
+}
+
+/* each individual list element */
+li {
+	margin-left: 110px;
+	padding-left: 13px;
+	width: auto;
+	max-width: 400px;
+	margin-top: 0px;
+	list-style: none;
+	list-style-type: decimal;
+	line-height: 41px;
+	font-family: 'Kalam', cursive;
+	font-size: 19px;
+	color: black;
+}
+
+/* the list numbers */
+li::marker {
+	color: #ac0f16;
+}
+
+/* the list element delete eraser */
+li button {
+	background-image: url("icons/Eraser Icons/eraser-icon.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 19px;
+	width: 19px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+/* the list element delete eraser when hovered over */
+li button:hover {
+	background-image: url("icons/Eraser Icons/eraser-icon-hover.png");
+}
